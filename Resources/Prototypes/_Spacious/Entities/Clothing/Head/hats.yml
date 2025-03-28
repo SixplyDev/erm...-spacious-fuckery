@@ -1,4 +1,4 @@
-- type:
+- type: entity
   parent: [ ClothingHeadBase , ClothingMaskBase ]
   id: ClothingApothecaryHood
   name: apothecary's hood
@@ -14,24 +14,24 @@
     slots:
     - Snout
 
-- type:
+- type: entity
   parent: [ ClothingHeadBase , ClothingOuterStorageFoldableBase ]
   id: ClothingMstrSurgeonHood
   name: master surgeon's hood
   description: A red hood for the Master Surgeon, hides the blood.
   components:
   - type: Sprite
-    sprite: _Spacious/Clothing/Hats/mstrsurgeonhood.rsi
+    sprite: _Spacious/Clothing/Hats/mstrsurgeon_hood.rsi
   - type: Clothing
-    sprite: _Spacious/Clothing/Hats/mstrsurgeonhood.rsi
+    sprite: _Spacious/Clothing/Hats/mstrsurgeon_hood.rsi
 
-- type:
+- type: entity
   parent: [ ClothingHeadBase , ClothingOuterStorageFoldableBaseOpened]
   id: ClothingMstrSurgeonHoodOpen
   name: master surgeon's hood
   suffix: Opened
 
-- type:
+- type: entity
   parent: [ ClothingHeadBase , ClothingOuterStorageFoldableBase ]
   id: ClothingPhysicianHood
   name: physician's hood
@@ -42,7 +42,7 @@
   - type: Clothing
     sprite: _Spacious/Clothing/Hats/physician_hood.rsi
 
-- type:
+- type: entity
   parent: [ ClothingHeadBase , ClothingOuterStorageFoldableBaseOpened ]
   id: ClothingPhysicianHoodOpen
   name: physician's hood
